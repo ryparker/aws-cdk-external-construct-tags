@@ -1,4 +1,0 @@
-{
-  "app": "build/js/index.js",
-  "output": "build/cloudformation"
-}
