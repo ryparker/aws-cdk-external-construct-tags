@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "rootDirs": ["./", "../external-project"],
     "target": "ES2018",
     "module": "commonjs",
     "lib": ["es2018"],
