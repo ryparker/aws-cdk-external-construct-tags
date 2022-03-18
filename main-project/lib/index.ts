@@ -1,5 +1,5 @@
 import OneInternalOneExternal from './one-internal-one-external';
 import * as cdk from 'aws-cdk-lib';
 
-const appA = new cdk.App();
-new OneInternalOneExternal(appA, 'one-internal-one-external');
+const app = new cdk.App();
+new OneInternalOneExternal(app, "one-internal-one-external");
