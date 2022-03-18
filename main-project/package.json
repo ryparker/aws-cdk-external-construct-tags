@@ -1,13 +1,11 @@
 {
-  "name": "cdk-test-proj",
+  "name": "main-project",
   "version": "0.1.0",
-  "bin": {
-    "cdk-test-proj": "bin/cdk-test-proj.js"
-  },
   "scripts": {
     "build": "tsc",
+    "generate": "yarn build && cdk synth",
     "watch": "tsc -w",
-    "test": "jest",
+    "test": "yarn build && jest",
     "cdk": "cdk"
   },
   "devDependencies": {
